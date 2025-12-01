@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body{
+        height: 3000px;
+      }
+      .sidebar{
+        color: white;
+        background-color:rgb(47, 0, 52);
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        top: 0;
+        
+      }
+     
+      .model-title{
+        margin-bottom: 7px;
+        font-weight: bold;
+      }
+      .model-content{
+        margin-bottom: 5px;
+      }
+      .model-text{
+         background-color: rgba(0, 0, 0, 0.5);
+         position: fixed;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         top: 0;
+         bottom: 0;
+         left: 0;
+         right: 0;
+      }
+      .model-style{
+          background-color: white;
+          width: 300px;
+          padding-top: 15px;
+          padding-bottom: 15px;
+          padding-left: 15px;
+          padding-right: 15px;
+          border-radius: 5px; 
+      }
+    </style>
+  </head>
+  <body>
+    <div class="sidebar">
+      sidebar
+    </div>
+    <div class="model-text">
+      <div class="model-style">
+        <div class="model-title">Model Title</div>
+        <div class="model-content">This is a model</div>
+        <button class="close">close</button>
+      </div>
+    </div>
+  </body>
+</html>
